@@ -63,10 +63,11 @@
 .submenu li a:hover {
   background: #eee;
 }
+    /* show submenu when Features is hovered */
 .has-submenu:hover .submenu {
   display: block;
 }
- nav .icons {
+nav .icons {
       display: flex;
       gap: 25px;
       font-size: 35px;
@@ -109,8 +110,7 @@
     }
     .hero-text button:hover {
       background: #21867a;
-    }
-/* Doctor Image */
+    }/* Doctor Image */
     .hero-img {
       flex: 1;
       display: flex;
@@ -121,8 +121,7 @@
       width: 350px;
       border-radius: 50%;
       border: 5px solid #2a9d8f;
-    }
-/* Chat Bar */
+    }/* Chat Bar */
     .chat-bar {
       position: fixed;
       bottom: 30px;
@@ -165,7 +164,7 @@
     }
     .chat-bar button:hover {
       background: #e0f2f1;
-    } /* Chat Box (Popup) */
+    }/* Chat Box (Popup) */
     .chat-box {
       display: none;
       position: fixed;
@@ -216,10 +215,8 @@
     <ul class="menu">
     <li><a href="#">Home</a></li>
     <li><a href="#">Appointment</a></li>
-  
-
-<!-- Features with sub-topics -->
-  <li class="has-submenu">
+  <!-- Features with sub-topics -->
+    <li class="has-submenu">
       <a href="#">Features ▾</a>
       <ul class="submenu">
         <li><a href="#">Progress</a></li>
@@ -227,13 +224,12 @@
       </ul>
     </li>
 
-  <li><a href="#">Contact</a></li>
+    <li><a href="#">Contact</a></li>
   </ul>
     <div class="icons">🔔 👤</div>
   </nav>
-
-  <!-- Hero Section -->
-<section class="hero">
+<!-- Hero Section -->
+  <section class="hero">
     <div class="hero-text">
       <h1>AI</h1>
       <h2>that listens, learns and cares</h2>
@@ -244,15 +240,13 @@
       <img src="Picsart_25-09-18_23-39-48-209.png" alt="Doctor">
     </div>
   </section>
-
-  <!-- Chat Bar -->
+<!-- Chat Bar -->
   <div class="chat-bar">
     <input type="text" id="user-input" placeholder="Type your health question...">
     <button onclick="mic">🎙️</button>
     <button onclick="sendMessage()"> ➤ </button>
   </div>
-
-  <!-- Chat Box -->
+<!-- Chat Box -->
   <div class="chat-box" id="chat-box">
     <div class="chat-header">Healthcare Assistant</div>
     <div class="chat-content" id="chat-content"></div>
