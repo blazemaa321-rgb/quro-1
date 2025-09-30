@@ -25,14 +25,12 @@
       font-weight: bold;
       color: #2a9d8f;
     }
-    
-  .menu {
+    .menu {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   background: #f5f5f5;
-  
 }
 .menu > li {
   position: relative;   /* needed for absolutely-positioned submenu */
@@ -65,21 +63,16 @@
 .submenu li a:hover {
   background: #eee;
 }
-
 .has-submenu:hover .submenu {
   display: block;
 }
-
-   nav .icons {
+ nav .icons {
       display: flex;
       gap: 25px;
       font-size: 35px;
       cursor: pointer;
     }
-    
-
-   
-  /* Hero Section */
+    /* Hero Section */
     .hero {
       display: flex;
       align-items: center;
@@ -117,8 +110,7 @@
     .hero-text button:hover {
       background: #21867a;
     }
-
-   /* Doctor Image */
+/* Doctor Image */
     .hero-img {
       flex: 1;
       display: flex;
@@ -130,8 +122,7 @@
       border-radius: 50%;
       border: 5px solid #2a9d8f;
     }
-
-   /* Chat Bar */
+/* Chat Bar */
     .chat-bar {
       position: fixed;
       bottom: 30px;
@@ -174,9 +165,7 @@
     }
     .chat-bar button:hover {
       background: #e0f2f1;
-    }
-
-  /* Chat Box (Popup) */
+    } /* Chat Box (Popup) */
     .chat-box {
       display: none;
       position: fixed;
@@ -244,7 +233,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
+<section class="hero">
     <div class="hero-text">
       <h1>AI</h1>
       <h2>that listens, learns and cares</h2>
