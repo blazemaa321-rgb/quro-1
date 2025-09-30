@@ -33,7 +33,7 @@
   background: #f5f5f5;
 }
 .menu > li {
-  position: relative;   /* needed for absolutely-positioned submenu */
+  position: relative;   
 }
 .menu > li > a {
   display: block;
@@ -231,7 +231,7 @@ nav .icons {
     <div class="hero-text">
       <h1>AI</h1>
       <h2>that listens, learns and cares</h2>
-      <p>Wellness at your fingertips means having instant access to reliable health guidance, personalized support, and everyday care anytime, anywhere—right from your device.</p>
+      <p>Wellness at your fingertips means having instant access to reliable health guidance, personalized support, and everyday care anytime,anywhere—right from your device</p>
       <button>Learn more</button>
     </div>
     <div class="hero-img">
