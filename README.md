@@ -26,7 +26,7 @@
       color: #2a9d8f;
     }
     
-    .menu {
+  .menu {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -66,12 +66,11 @@
   background: #eee;
 }
 
-/* show submenu when Features is hovered */
 .has-submenu:hover .submenu {
   display: block;
 }
 
-    nav .icons {
+   nav .icons {
       display: flex;
       gap: 25px;
       font-size: 35px;
@@ -79,7 +78,8 @@
     }
     
 
-    /* Hero Section */
+   
+  /* Hero Section */
     .hero {
       display: flex;
       align-items: center;
@@ -118,7 +118,7 @@
       background: #21867a;
     }
 
-    /* Doctor Image */
+   /* Doctor Image */
     .hero-img {
       flex: 1;
       display: flex;
@@ -131,7 +131,7 @@
       border: 5px solid #2a9d8f;
     }
 
-    /* Chat Bar */
+   /* Chat Bar */
     .chat-bar {
       position: fixed;
       bottom: 30px;
@@ -176,7 +176,7 @@
       background: #e0f2f1;
     }
 
-    /* Chat Box (Popup) */
+  /* Chat Box (Popup) */
     .chat-box {
       display: none;
       position: fixed;
@@ -229,8 +229,8 @@
     <li><a href="#">Appointment</a></li>
   
 
-    <!-- Features with sub-topics -->
-    <li class="has-submenu">
+<!-- Features with sub-topics -->
+  <li class="has-submenu">
       <a href="#">Features ▾</a>
       <ul class="submenu">
         <li><a href="#">Progress</a></li>
@@ -238,7 +238,7 @@
       </ul>
     </li>
 
-    <li><a href="#">Contact</a></li>
+  <li><a href="#">Contact</a></li>
   </ul>
     <div class="icons">🔔 👤</div>
   </nav>
