@@ -208,10 +208,9 @@ nav .icons {
   </style>
 </head>
 <body>
-
   <!-- Navbar -->
   <nav>
-    <div class="logo"><img src="Picsart_25-09-18_16-43-36-205.png" height="75"width="125"></div>
+    <div class="logo"> <img src="Picsart_25-09-18_16-43-36-205.png" height="75"width="125"> </div>
     <ul class="menu">
     <li><a href="#">Home</a></li>
     <li><a href="#">Appointment</a></li>
